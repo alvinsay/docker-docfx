@@ -1,3 +1,7 @@
+# Note
+
+Forked from https://github.com/tsgkdt/docker-docfx
+
 # About this image
 
 Docker image for [DocFX](http://dotnet.github.io/docfx/).
