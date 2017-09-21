@@ -3,7 +3,7 @@ FROM mono:latest
 LABEL maintainer="tsgkadot<tsgkadot@gmail.com>" \
       description="For DocFX building(with mono.)"
 
-ENV DOCFX_VER 2.19
+ENV DOCFX_VER 2.24
 
 RUN apt-get update && apt-get install unzip wget -y && \
     wget -q -P /tmp https://github.com/dotnet/docfx/releases/download/v${DOCFX_VER}/docfx.zip && \
